@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: MyPackageTutorial
+Version: 0.0.1
+Summary: Motivational Quote Generator
+Author-email: Jalen Merluza <Jalen.Merluza@cabelas.ca>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/j-merluza/motivator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Packaging Python and using GitHub as a private (PyPI) server
+
+This tutorial is a summarization of the following resources:
+
+- https://medium.com/network-letters/using-github-as-a-private-python-package-index-server-798a6e1cfdef
+
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/#generating-distribution-archives
+
+- https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+- https://packaging.python.org/en/latest/specifications/pypirc/
+
+- https://stackoverflow.com/questions/9727673/list-directory-tree-structure-in-python
+
