@@ -19,7 +19,7 @@ pypackage_tutorial
     └── __init__.py
 ```
 
-- `MyPackage` - is the folder name that would contain the python modules. Keep in mind, this is name you will be importing. Example: `import MyPackage`
+- `MyPackage` - is the folder name that would contain the python modules. Keep in mind, this is name you will be importing, so name this accordingly. Example: `import MyPackage`
 - `__init__.py` - is always recommended to have so you can import as a regular package. 
 - `example.py` - is the python module containing the below function:
 
@@ -35,7 +35,7 @@ There are additional files you would need to create in the root folder which are
 
 - `README.md` - a read me document is required to provide details about what your project is, how to install it and use it. It’s recommended to have this document. 
 - `pyproject.toml` - this file is basically the configuration file that contains requirements, version and meta data information for the building process. 
-- `LICENSE` - It’s important for every package published to pypi should have a license. HOWEVER, the package in this scenario is only to be used within an organization. So, in this case, we do not need a license. For help choosing a license, you can go here: Choose an open source license | Choose a License
+- `LICENSE` - It’s important for every package published to have a license. HOWEVER, the package in this scenario is only to be used within an organization. So, in this case, we do not need a license. For help choosing a license, you can go here: [Choose an open source license | Choose a License](https://choosealicense.com/)
 
 After creating these files, your directory should now look like this:
 
@@ -71,7 +71,7 @@ This will generate a lot of lines in your terminal and in the end it will genera
 ## Publish
 In the last section of the python resource of packaging, it explains how to upload to PyPi for all to see, but in our case, we do not want to publish here since the packages we are developing is only meant to be used within our organization. 
 
-So, instead, we just git commit our project to our GitHub repository. You can `.gitignore` the `pyproject.toml` file and various dist folders.
+So, instead, we just git commit our project to our GitHub repository. You can `.gitignore` the dist folders.
 
 ## Installation
 Now, everyone can follow the below code to install your package!
